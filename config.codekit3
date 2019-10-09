@@ -31,6 +31,14 @@
 		"oAP": "/dist/footer.html",
 		"oF": 0
 		},
+	"/google7e5c4219c75ca55c.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/google7e5c4219c75ca55c.html",
+		"oF": 0
+		},
 	"/head.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -191,7 +199,7 @@
 		},
 	"/src/assets/img/amazon-white.png": {
 		"ft": 32768,
-		"iS": 5338,
+		"iS": 3399,
 		"oA": 0,
 		"oAP": "/dist/assets/img/amazon-white.png",
 		"oF": 0,
@@ -405,7 +413,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-doge",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 592344549.73966002
+	"lastBuiltDate": 592347728.58842897
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
