@@ -82,6 +82,14 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"/robots.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/robots.txt",
+		"oF": 0
+		},
 	"/sitemap.xml": {
 		"cB": 0,
 		"ft": 8192,
@@ -397,7 +405,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-doge",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 592344275.54628599
+	"lastBuiltDate": 592344549.73966002
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
