@@ -38,6 +38,10 @@ body
   a
     text-decoration: none
     color: white
+
+    &:hover
+      text-decoration: none
+      color: rgba(256,256,256,0.8)
   
   button
     background: $primary-color
@@ -48,6 +52,9 @@ body
     padding: 15px 33px
     text-transform: uppercase
     margin: 20px 0
+
+    &:hover
+      color: rgba(256,256,256,0.8)
   
   section
     padding: 50px 0
@@ -85,3 +92,8 @@ body
     height: 5px
     width: 50px
     background-color: #049DBF
+    margin: 0 0 30px 0
+
+  @media (max-width: 900px)
+    .spacer-dog
+      margin: 10px auto 20px auto

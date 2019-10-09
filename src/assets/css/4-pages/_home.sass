@@ -1,19 +1,19 @@
 #story, #dogs, #contact
 
- .flex-wrap
-  display: flex
-  flex-wrap: wrap
-  justify-content: space-between
-  padding: 15px 0
+  .flex-wrap
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    padding: 15px 0
 
-  img
-   height: 350px
+    img
+      height: 350px
 
   .text-wrap
-   max-width: 450px
+    max-width: 450px
 
- .wrap-reverse
-  flex-direction: row-reverse
+  .wrap-reverse
+    flex-direction: row-reverse
 
 #order
  height: auto
@@ -94,8 +94,29 @@
    width: 100px
 
 
-@media (max-width: 600px)
+@media (max-width: 900px)
+  #story, #dogs
+    text-align: center
+    margin: 0 auto
+
+    .flex-wrap
+      display: block
+      justify-content: center
+
+    .text-wrap
+      max-width: 100%
+
+
   #order
 
     .flex-bookshop
       flex-direction: column
+  
+  #contact
+
+    .contact-info-wrap
+      text-align: center
+      margin-top: 30px
+
+    .author-wrap
+      margin-top: 10px

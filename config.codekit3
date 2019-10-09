@@ -9,9 +9,9 @@
 	],
 "creatorBuild": "31491",
 "files": {
-	"/cookies.html": {
+	"/cookies.kit": {
 		"cB": 0,
-		"ft": 8192,
+		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/dist/cookies.html",
@@ -175,7 +175,7 @@
 		},
 	"/src/assets/img/amazon-white.png": {
 		"ft": 32768,
-		"iS": 3399,
+		"iS": 5338,
 		"oA": 0,
 		"oAP": "/dist/assets/img/amazon-white.png",
 		"oF": 0,
@@ -269,6 +269,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/src/assets/img/favicon.png": {
+		"ft": 32768,
+		"iS": 2901,
+		"oA": 0,
+		"oAP": "/dist/assets/img/favicon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/src/assets/img/hero-book.png": {
 		"ft": 32768,
 		"iS": 614763,
@@ -345,6 +356,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/src/assets/img/webclip.png": {
+		"ft": 32768,
+		"iS": 51815,
+		"oA": 0,
+		"oAP": "/dist/assets/img/webclip.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/src/assets/js/functions.js": {
 		"bF": 0,
 		"ft": 64,
@@ -367,7 +389,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-doge",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 590761731.37456203
+	"lastBuiltDate": 592344275.54628599
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
