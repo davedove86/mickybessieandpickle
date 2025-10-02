@@ -1,1 +1,0 @@
-const navSlide=()=>{const e=document.querySelector(".burger"),o=document.querySelector(".nav-links");e.addEventListener("click",(()=>{o.classList.toggle("nav-active")}))};navSlide(),window.scroll({top:2500,left:0,behavior:"smooth"}),window.scrollBy({top:100,left:0,behavior:"smooth"}),document.querySelector(".hello").scrollIntoView({behavior:"smooth"});
