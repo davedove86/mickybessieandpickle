@@ -42,3 +42,9 @@
 .about-stories-para:last-child{margin-bottom:0}
 .about-stories .hero-link{color:#111193}
 .about-stories .hero-link:focus-visible{outline-color:#111193}
+
+/* Nav bar breathing room (Dave, 21 Oct 2026). The nav is static, not fixed or sticky, so no body offset is needed. */
+.navbar1_component{padding-top:18px;padding-bottom:18px}
+.navbar1_container{align-items:center}
+.navbar1_logo-link{display:flex;align-items:center}
+@media screen and (max-width:767px){.navbar1_component{padding-top:11px;padding-bottom:11px}}
