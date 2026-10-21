@@ -1,0 +1,17 @@
+/* Content refresh, October 2026 (Dove Design Ltd). Loaded after the Webflow CSS. */
+/* Hero: the right-hand gradient end (#57a9db) is too light for white text (2.6:1), so it is darkened to pass WCAG AA (5.3:1). */
+.section_header1.blue-gradient{background-image:linear-gradient(148deg,#111193,#2a6db5)}
+.hero-question{font-size:3rem}
+.hero-para{margin-bottom:.9rem}
+.hero-link{text-decoration:underline;text-underline-offset:.18em;font-weight:600}
+.hero-secondary{border-color:#f8de87}
+.hero-secondary:hover{background-color:#f8de87;color:#000}
+.button:focus-visible,.hero-link:focus-visible,.text-style-link:focus-visible,.navbar1_link:focus-visible,.footer7_link:focus-visible{outline:.1875rem solid #f8de87;outline-offset:.1875rem}
+.text-style-link:focus-visible,.footer7_link:focus-visible{outline-color:#111193}
+.hero-dogs{background:radial-gradient(closest-side,rgba(255,255,255,.55),rgba(255,255,255,0));padding:1.5rem;display:grid;grid-template-columns:1fr 1fr;grid-template-areas:"micky micky" "bessie pickle";gap:1rem 1.5rem;align-items:end;justify-items:center}
+.hero-dog{width:100%;height:auto}
+.hero-dog-micky{grid-area:micky;max-width:420px}
+.hero-dog-bessie{grid-area:bessie;max-width:300px}
+.hero-dog-pickle{grid-area:pickle;max-width:220px}
+@media screen and (max-width:991px){.hero-question{font-size:2.6rem}}
+@media screen and (max-width:767px){.hero-question{font-size:2.1rem}.hero-dogs{max-width:420px;margin:0 auto}}
