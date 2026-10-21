@@ -35,3 +35,10 @@
 .signup-notice a{color:#fff;font-weight:600;text-decoration:underline;text-underline-offset:.18em}
 .signup-notice a:focus-visible{outline:3px solid #f8de87;outline-offset:3px}
 @media screen and (max-width:767px){.signup-row .signup-button{flex:1 1 100%}}
+
+/* About the stories (Dave, 21 Oct 2026): copy moved out of the hero */
+.about-stories-body{max-width:40rem;margin:2rem auto 0}
+.about-stories-para{margin-bottom:1rem;line-height:1.65}
+.about-stories-para:last-child{margin-bottom:0}
+.about-stories .hero-link{color:#111193}
+.about-stories .hero-link:focus-visible{outline-color:#111193}
