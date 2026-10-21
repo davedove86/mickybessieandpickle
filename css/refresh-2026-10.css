@@ -8,10 +8,30 @@
 .hero-secondary:hover{background-color:#f8de87;color:#000}
 .button:focus-visible,.hero-link:focus-visible,.text-style-link:focus-visible,.navbar1_link:focus-visible,.footer7_link:focus-visible{outline:.1875rem solid #f8de87;outline-offset:.1875rem}
 .text-style-link:focus-visible,.footer7_link:focus-visible{outline-color:#111193}
-.hero-dogs{background:radial-gradient(closest-side,rgba(255,255,255,.55),rgba(255,255,255,0));padding:1.5rem;display:grid;grid-template-columns:1fr 1fr;grid-template-areas:"micky micky" "bessie pickle";gap:1rem 1.5rem;align-items:end;justify-items:center}
-.hero-dog{width:100%;height:auto}
-.hero-dog-micky{grid-area:micky;max-width:420px}
-.hero-dog-bessie{grid-area:bessie;max-width:300px}
-.hero-dog-pickle{grid-area:pickle;max-width:220px}
 @media screen and (max-width:991px){.hero-question{font-size:2.6rem}}
-@media screen and (max-width:767px){.hero-question{font-size:2.1rem}.hero-dogs{max-width:420px;margin:0 auto}}
+@media screen and (max-width:767px){.hero-question{font-size:2.1rem}}
+/* Hero: text only, centred (Dave, 21 Oct 2026) */
+.header1_content.hero-centred{grid-template-columns:1fr;justify-items:center;text-align:center}
+.hero-centred .header1_content-left{max-width:46rem;margin:0 auto}
+.hero-centred .button-group{justify-content:center}
+
+/* Meet The Dogs: full-body drawings shown at natural size, never upscaled */
+.layout1_image.dog-full{width:auto;height:auto;max-width:100%;max-height:none;margin:0 auto;display:block}
+.layout1_image-wrapper:has(.dog-full){display:flex;align-items:center;justify-content:center;height:auto;align-self:center}
+
+/* Newsletter (no-script Kit form 9944848), styled to match charlesoakley.co.uk */
+.newsletter-section{background-image:linear-gradient(148deg,#111193,#2a6db5);color:#fff;text-align:center}
+.newsletter-inner{max-width:40rem;margin:0 auto}
+.newsletter-section .heading-style-h2{margin-bottom:1rem}
+.signup{max-width:34rem;margin:1.5rem auto 0;text-align:left}
+.signup label{display:block;font-weight:600;margin-bottom:.4rem;color:#fff}
+.signup-row{display:flex;gap:.6rem;flex-wrap:wrap}
+.signup input[type=email]{flex:1 1 15rem;min-width:0;font:inherit;font-size:1rem;padding:.8rem .9rem;border:2px solid #fff;border-radius:8px;color:#1a1a2e;background:#fff;-webkit-appearance:none}
+.signup input[type=email]:focus{outline:3px solid #f8de87;outline-offset:3px;border-color:#111193}
+.signup-button{font-family:inherit;font-size:1rem;cursor:pointer}
+.signup-button:hover{background-color:#fff;border-color:#fff;color:#111193}
+.signup-button:focus-visible{outline:3px solid #f8de87;outline-offset:3px}
+.signup-notice{font-size:.92rem;margin-top:1rem;line-height:1.55;color:#fff}
+.signup-notice a{color:#fff;font-weight:600;text-decoration:underline;text-underline-offset:.18em}
+.signup-notice a:focus-visible{outline:3px solid #f8de87;outline-offset:3px}
+@media screen and (max-width:767px){.signup-row .signup-button{flex:1 1 100%}}

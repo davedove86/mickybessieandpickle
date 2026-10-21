@@ -214,7 +214,7 @@ margin: 0rem !important;
         <nav role="navigation" class="navbar1_menu is-page-height-tablet w-nav-menu">
           <div class="navbar1_menu-links">
             <a href="#meet-the-dogs" class="navbar1_link w-nav-link">Meet The Dogs</a>
-            <a href="#subscribe" class="navbar1_link hide w-nav-link">Newsletter</a>
+            <a href="#subscribe" class="navbar1_link w-nav-link">Newsletter</a>
             <a href="#contact" class="navbar1_link w-nav-link">Contact</a>
           </div>
         </nav>
@@ -235,7 +235,7 @@ margin: 0rem !important;
           <div class="container-large">
             <div class="padding-section-large">
               <div class="header1_component">
-                <div class="w-layout-grid header1_content">
+                <div class="w-layout-grid header1_content hero-centred">
                   <div class="header1_content-left">
                     <div class="margin-bottom margin-small">
                       <h1 class="heading-style-h1 hero-question">What do dogs really think about the people they live with?</h1>
@@ -251,11 +251,6 @@ margin: 0rem !important;
                         <a href="https://charlesoakley.co.uk/" class="button is-secondary is-alternate hero-secondary w-button">Visit charlesoakley.co.uk</a>
                       </div>
                     </div>
-                  </div>
-                  <div class="hero-dogs">
-                    <img src="images/micky-full.png" width="687" height="486" alt="Illustration of Micky, a black spaniel with a grey muzzle" loading="eager" class="hero-dog hero-dog-micky">
-                    <img src="images/bessie-full.png" width="626" height="443" alt="Illustration of Bessie, a black spaniel" loading="eager" class="hero-dog hero-dog-bessie">
-                    <img src="images/pickle-full.png" width="499" height="352" alt="Illustration of Pickle, a small white fluffy dog" loading="eager" class="hero-dog hero-dog-pickle">
                   </div>
                 </div>
               </div>
@@ -293,7 +288,7 @@ margin: 0rem !important;
                       <p class="text-size-medium">Curious, sensitive and inventive, Pickle has a talent for noticing things others overlook. His ingenuity often proves invaluable when the dogs find themselves in difficult situations.</p>
                     </div>
                   </div>
-                  <div class="layout1_image-wrapper reverse"><img width="132" loading="lazy" alt="Illustration of Pickle" src="images/Pickle.png" class="layout1_image dog"></div>
+                  <div class="layout1_image-wrapper reverse"><img width="278" height="218" loading="lazy" alt="Illustration of Pickle, a small white fluffy dog" src="images/pickle-full.png" class="layout1_image dog dog-full"></div>
                 </div>
               </div>
             </div>
@@ -306,7 +301,7 @@ margin: 0rem !important;
             <div class="padding-section-large">
               <div class="layout1_component-2">
                 <div class="w-layout-grid layout1_content-2">
-                  <div class="layout1_image-wrapper"><img loading="lazy" src="images/Bessie.png" alt="Illustration of Bessie" class="layout1_image dog"></div>
+                  <div class="layout1_image-wrapper"><img width="397" height="316" loading="lazy" src="images/bessie-full.png" alt="Illustration of Bessie, a black spaniel" class="layout1_image dog dog-full"></div>
                   <div class="layout1_content-left">
                     <div class="margin-bottom margin-small">
                       <h2 class="heading-style-h2">Bessie</h2>
@@ -335,7 +330,7 @@ margin: 0rem !important;
                       <p class="text-size-medium">Adventurous, mischievous and often inclined to act before thinking. He enjoys teasing his sister Bessie, but his loyalty and courage come to the fore whenever his friends are in danger.</p>
                     </div>
                   </div>
-                  <div class="layout1_image-wrapper reverse"><img loading="lazy" src="images/Micky.png" alt="Illustration of Micky" class="layout1_image dog"></div>
+                  <div class="layout1_image-wrapper reverse"><img width="432" height="354" loading="lazy" src="images/micky-full.png" alt="Illustration of Micky, a black spaniel with a grey muzzle" class="layout1_image dog dog-full"></div>
                 </div>
               </div>
             </div>
@@ -382,40 +377,22 @@ margin: 0rem !important;
           </div>
         </div>
       </section>
-      <section id="subscribe" class="section_contact1 blue-gradient hide">
+      <section id="subscribe" class="newsletter-section" aria-labelledby="newsletter-heading">
         <div class="padding-global">
           <div class="container-large">
             <div class="padding-section-large">
-              <div class="contact1_component">
-                <div class="margin-bottom margin-xxlarge">
-                  <div class="text-align-center">
-                    <div class="max-width-large align-center">
-                      <div class="margin-bottom margin-small">
-                        <h2 class="heading-style-h2">Subscribe To Our Newsletter</h2>
-                      </div>
-                      <p class="text-size-medium">Subscribe to get our latest content by email.</p>
-                    </div>
+              <div class="newsletter-inner">
+                <h2 id="newsletter-heading" class="heading-style-h2">Join my readers' newsletter</h2>
+                <p class="text-size-medium">Follow the development of my books, discover new stories and hear about forthcoming adventures.</p>
+                <!-- Kit form 9944848 (from Charles's email to info@dovedesign.io, 21 Oct 2026 12:15). No Kit script is loaded: this is a plain POST, so nothing is stored on the visitor's device. Kit shows its own confirmation page and sends the double opt-in email. -->
+                <form class="signup" action="https://app.kit.com/forms/9944848/subscriptions" method="post" accept-charset="UTF-8">
+                  <label for="email_address">Your email address</label>
+                  <div class="signup-row">
+                    <input id="email_address" name="email_address" type="email" autocomplete="email" required aria-describedby="signup-notice">
+                    <button class="button signup-button" type="submit">Subscribe</button>
                   </div>
-                </div>
-                <div class="max-width-medium align-center">
-                  <div class="contact1_form-block w-form">
-                    <form id="wf-form-Contact-1-Form" name="wf-form-Contact-1-Form" data-name="Contact 1 Form" action="https://app.kit.com/forms/1245718/subscriptions" method="post" class="contact1_form" data-wf-page-id="67a26408f89a36cc68cb290f" data-wf-element-id="98e1c913-750e-d0af-02bf-bd1613d34f17">
-                      <div class="form_field-wrapper"><label for="Subscriber-Name" class="form_field-label">Name</label><input class="form_input white w-input" maxlength="256" name="Subscriber-Name" data-name="Subscriber Name" placeholder="Enter your name" type="text" id="Subscriber-Name" required=""></div>
-                      <div class="form_field-wrapper"><label for="Subscriber-Email" class="form_field-label">Email</label><input class="form_input w-input" maxlength="256" name="Subscriber-Email" data-name="Subscriber Email" placeholder="Enter your email" type="email" id="Subscriber-Email" required=""></div><input type="submit" data-wait="Please wait..." id="w-node-_98e1c913-750e-d0af-02bf-bd1613d34f2b-68cb290f" class="button max-width-full w-button" value="Submit Form">
-                      <p class="text-align-center">We won’t send you spam. Unsubscribe at anytime.</p>
-                    </form>
-                    <div class="form_message-success-wrapper w-form-done">
-                      <div class="form_message-success">
-                        <div class="success-text">Thank you! Your submission has been received!</div>
-                      </div>
-                    </div>
-                    <div class="form_message-error-wrapper w-form-fail">
-                      <div class="form_message-error">
-                        <div class="error-text">Oops! Something went wrong while submitting the form.</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                  <p class="signup-notice" id="signup-notice">For parents and grown-ups. If you're under 13, please ask a parent or carer to sign up. Charles Oakley will email you about new books and stories. Unsubscribe at any time. <a href="https://charlesoakley.co.uk/privacy.html">Privacy notice</a>.</p>
+                </form>
               </div>
             </div>
           </div>
@@ -480,7 +457,7 @@ margin: 0rem !important;
                 <a href="#" id="w-node-_538b993f-b9cc-2840-8ec8-f79ed7735f43-68cb290f" class="footer7_logo-link w-nav-brand"><img width="92" loading="lazy" alt="The Adventures of Micky, Bessie and Pickle, back to top" src="images/logo.png" class="footer7_logo"></a>
                 <div class="w-layout-grid footer7_link-list">
                   <a href="#meet-the-dogs" class="footer7_link">Meet The Dogs</a>
-                  <a href="#subscribe" class="footer7_link hide">Newsletter</a>
+                  <a href="#subscribe" class="footer7_link">Newsletter</a>
                   <a href="#contact" class="footer7_link">Contact</a>
                 </div>
               </div>
