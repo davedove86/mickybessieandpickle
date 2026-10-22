@@ -77,5 +77,5 @@
 .section_contact11 .contact11_content{display:flex;justify-content:center}
 /* M7 lighter background: bubbles as WebP */
 .main-wrapper.bubbles-bg{background-image:linear-gradient(#fffffff5,#fffffff5),url('../images/bubbles.webp')}
-/* QA fix (22 Oct 2026): keep the Meet The Dogs heading clear of the top edge when jumped to */
-#meet-the-dogs{scroll-margin-top:1.5rem}
+/* QA fix (22 Oct 2026): keep the Meet The Dogs heading clear of the top edge when jumped to. Padding plus negative margin, because webflow.js smooth scroll ignores scroll-margin */
+#meet-the-dogs{scroll-margin-top:0;padding-top:1.5rem;margin-top:-1.5rem}
