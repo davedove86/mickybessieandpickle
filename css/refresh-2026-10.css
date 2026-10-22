@@ -48,3 +48,32 @@
 .navbar1_container{align-items:center}
 .navbar1_logo-link{display:flex;align-items:center}
 @media screen and (max-width:767px){.navbar1_component{padding-top:11px;padding-bottom:11px}}
+
+/* Design review fixes M1, M2, M7, M8 (22 Oct 2026, approved by Dave) */
+/* M7 self-hosted Poppins (replaces the Google WebFont loader) */
+@font-face{font-family:"Poppins";font-weight:400;font-display:swap;src:url("../fonts/poppins-400.woff2") format("woff2")}
+@font-face{font-family:"Poppins";font-weight:600;font-display:swap;src:url("../fonts/poppins-600.woff2") format("woff2")}
+@font-face{font-family:"Poppins";font-weight:800;font-display:swap;src:url("../fonts/poppins-800.woff2") format("woff2")}
+/* M1 hero type: question on two lines at desktop, three at 390 */
+.hero-question{font-size:2.75rem;letter-spacing:-.01em}
+.hero-centred .header1_content-left{max-width:52rem}
+.section_header1 .padding-section-large{padding-top:5.5rem;padding-bottom:5.5rem}
+@media screen and (max-width:767px){.hero-question{font-size:1.85rem}.section_header1 .padding-section-large{padding-top:3.5rem;padding-bottom:3.5rem}.hero-centred .button-group .button{flex:1 1 100%;max-width:20rem}}
+/* M2 Meet The Dogs rhythm: tighter rows, text centred against each drawing */
+#meet-the-dogs ~ .section_layout1 .padding-section-large{padding-top:3rem;padding-bottom:3rem}
+#meet-the-dogs ~ .section_layout1 .layout1_content-2{align-items:center}
+.section_header46 + .section_layout1 .padding-section-large{padding-top:2rem}
+.about-stories .padding-section-large{padding-bottom:3rem}
+@media screen and (max-width:767px){#meet-the-dogs ~ .section_layout1 .padding-section-large{padding-top:2rem;padding-bottom:2rem}#meet-the-dogs ~ .section_layout1 .layout1_content-2{grid-row-gap:1.25rem}}
+/* M8 contact: centred, email and phone side by side */
+.section_contact11 .max-width-large{margin:0 auto;text-align:center}
+.section_contact11 .contact11_content{justify-content:center}
+.section_contact11 .contact11_contact-list{grid-template-columns:max-content max-content;column-gap:4rem;justify-content:center;text-align:center}
+.section_contact11 .contact11_icon-wrapper{margin:0 auto}
+.section_contact11 .padding-section-large{padding-top:4.5rem;padding-bottom:4.5rem}
+.footer7_legal-link{color:#ccc;text-decoration:underline}
+@media screen and (max-width:767px){.section_contact11 .contact11_contact-list{grid-template-columns:1fr;row-gap:2rem}}
+.hero-centred .hero-para{max-width:38rem;margin-left:auto;margin-right:auto}
+.section_contact11 .contact11_content{display:flex;justify-content:center}
+/* M7 lighter background: bubbles as WebP */
+.main-wrapper.bubbles-bg{background-image:linear-gradient(#fffffff5,#fffffff5),url('../images/bubbles.webp')}
